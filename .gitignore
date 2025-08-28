@@ -38,6 +38,9 @@ Thumbs.db
 audit_results/
 reports/
 bias_audit_report.csv
+# But keep reports when under src/ for publishing
+!src/reports/
+!src/reports/**
 
 # Generated outputs (inside venv where scripts run)
 venv/audit_results/
