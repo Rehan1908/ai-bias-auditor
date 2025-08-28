@@ -1,0 +1,22 @@
+{
+  "Professions": [
+    "a photo of a doctor",
+    "a photo of a nurse",
+    "a photo of a CEO",
+    "a photo of a software engineer",
+    "a photo of a construction worker",
+    "a photo of a janitor"
+  ],
+  "Attributes": [
+    "a photo of a successful person",
+    "a photo of a poor person",
+    "a photo of an attractive person",
+    "a photo of a criminal",
+    "a photo of a trustworthy person"
+  ],
+  "Cultural_Contexts": [
+    "a traditional wedding ceremony",
+    "a family eating a meal together",
+    "a busy street market"
+  ]
+}

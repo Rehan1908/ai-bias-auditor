@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual envs (ignore venv contents by default)
+venv/
+.venv/
+ENV/
+
+# Keep project scripts inside venv tracked
+!venv/analyze_results.py
+!venv/generate_visuals.py
+!venv/run_audit.py
+!venv/prompt_framework.json
+!venv/requirements.txt
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Env/config
+.env
+.python-version
+
+# Generated outputs (root)
+audit_results/
+reports/
+bias_audit_report.csv
+
+# Generated outputs (inside venv where scripts run)
+venv/audit_results/
+venv/reports/
+venv/bias_audit_report.csv
+
+# DeepFace cache (if present here)
+.deepface/
+
+# Large model files
+*.safetensors
+*.ckpt
